@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<style>
+    form{
+        margin: 150px auto;
+        border: 1px solid black;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px silver;
+        width: 350px;
+    }
+
+    label{
+        display: block;
+    }
+
+    input{
+        padding: 13px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        padding: 8px 20px;
+        margin: 10px;
+        border-radius: 45px;
+        border: 2px solid blue;
+        outline: none;
+        background: transparent;
+        font-weight: 600;
+    }
+</style>
+<body>
+    
+    <form action="#">
+        <label for="userName">
+            <input id="username" type="text" placeholder="Enter your username">
+        </label>
+
+        <label for="password">
+            <input id="password" type="password" placeholder="Enter your password">
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
